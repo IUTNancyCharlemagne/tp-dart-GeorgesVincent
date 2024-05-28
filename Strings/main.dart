@@ -41,6 +41,18 @@ void exercice7(){
 
 void exrecice8(){
   const String welcome = "Hello, World !";
+  final List<String> words = welcome.split(" ");
   
+  print(words);
+}
+
+void exercice9(){
+  const String pwd = "";
   
+  print(pwd.isEmpty ? "Mot de passe manquant" : "Mot de passe fourni");
+}
+
+void exercice10(){
+  const String email = "john@doe.com";
+  print(email.contains("@") && email.contains(".") ? "Email valide" : "Email invalide");
 }
